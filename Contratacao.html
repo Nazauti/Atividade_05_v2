@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title> Sionbus </title>
+		<link rel="stylesheet" href="Estilos.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+	<body>
+<!--Links-->
+		<form action = "https://formspree.io/f/maylpnja" method = "Post">
+		<div class = "tit3">
+			<div align = "right" class = "kappa3">
+				<a href = "Home.html" class = "lk3" style = "color: white; top: 7px;"> Início</a>
+				<a href = "Cidades.html" class = "lk3" style = "color: white; top: 7px;" > Horários/Itinerário</a>
+				<a href = "Contratacao.html" class = "lk3" style = "color: white; top: 7px;" > Trabalhe Conosco</a>
+				<a href = "Contato.html" class = "lk3" style = "color: white; top: 7px;" > Contato</a>
+			</div>
+			<h1 align = "left" style = "font-family: Times New Roman, Times, serif;" class = "title"> Contração e Chamados </h1>
+		</div>
+		<br>
+		<div class = "w3-half" style = "float: left">
+			<div class = "w3-card-2" style="height:60%;">
+				<div class = "w3-container">
+					<h2> Trabalhe Conosco </h2>
+					<br>
+			<!--Formulário-->
+					<div class="name">
+			<!--Nome-->
+					  <label> Nome: </label>
+					  <input type="text" name="nome" class = "input1"/> <br> <br>
+					</div>
+			<!--Email-->
+					<div class = "name">
+					  <label> E-mail: </label>
+					  <input type="text" name="nome" class = "input2"/> <br> <br>
+					</div>
+			<!--Telefone-->
+					<div class = "name">
+					  <label> Telefone: </label>
+					  <input type="text" name="nome" class = "input3"/> <br> <br>
+					</div>
+			<!--Endereço-->
+					<div class = "name">
+					  <label> Endereço: </label>
+					  <input type="text" name="nome" class = "input4"/> <br> <br>
+					</div>
+			<!--Selecionar Cargo-->
+					<div>
+						<label> Cargos: </label>
+						<select name="nome" class = "slc1"/> <br> <br>
+							<option name="mot"> Motorista </option>
+							<option name="opr"> Guichê </option>
+							<option name="sup"> Supervisor </option>
+							<option name="aux"> Auxiliar Administrativo </option>
+							<option name="ger"> gerente </option>
+						</select>
+					</div>
+			<!--Botão Enviar-->
+					<input class = "ev" id="btn-enviar" type="submit" value="Enviar"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class = "w3-half" style = "float: right">
+			<div class = "w3-card-2" style="height:60%; position: relative; bottom: 15px;">
+				<div class = "w3-container">
+					<h2> Abertura de chamado </h2>
+					<br>
+					<div>
+					  <label> Nome do funcionário: </label>
+					  <input type="text" class = "input5" name="nome"/> <br> <br>
+					</div>
+
+					<div>
+					  <label> Assunto do chamado: </label>
+					  <input type="text" class = "input6" name="nome"/> <br> <br>
+					</div>
+
+					<div>
+						<label> Categoria do chamado: </label>
+						<select name="nome"/> <br> <br>
+							<option name="adm"> Administrativo </option>
+							<option name="grc"> Gerencial </option>
+							<option name="opc"> Operacional </option> <br> <br>
+						</select>
+					</div>
+					<br>
+					<div>
+					  <label> Observações: </label> <br>
+					  <textarea class = "txta1"> </textarea> <br> <br>
+					</div>
+
+					<input id="btn-enviar2" type="submit" value="Enviar"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<button id = "btn-voltar2" onclick="location.href='Home.html'"> Voltar </button>
+	</body>
+</html>
+		
