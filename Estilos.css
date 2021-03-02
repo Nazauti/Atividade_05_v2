@@ -5,6 +5,11 @@ a{
 	font-family: "Times New Roman", Times, serif;
 }	
 
+a:hover {
+  color: Black;
+  background-color: White;
+}
+
 .tit{
 	background-color: black;
 }
@@ -100,6 +105,7 @@ table{
   position: relative;
   top: 20px;
   Content: 100%;
+  color:white;
 }
 
 .img1{
